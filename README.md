@@ -1,0 +1,1 @@
+An interactive Streamlit application for visualizing and validating cocoa processing mass balances from whole fruit to cocoa nibs. This tool allows smallholder farmers, researchers, and extension specialists to input measured processing weights at each stage and immediately generate a dynamic Sankey diagram representing material flows, by-products, and losses.
