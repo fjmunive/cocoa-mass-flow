@@ -127,7 +127,7 @@ def build_sankey(m, variety_name):
         ),
     ))
 
-    fig.update_layout(
+fig.update_layout(
         title=dict(
             text=(f"<b>Cocoa Mass Flow — {variety_name}</b>"
                   f"<br><sup>Input: {T:.0f} kg whole fruit</sup>"),
