@@ -134,7 +134,7 @@ def build_sankey(m, variety_name):
             font=dict(size=20, family="Georgia, serif", color="#4E2A04"),
             x=0.5,
         ),
-        font=dict(size=12, family="Arial, sans-serif"),
+        font=dict(size=12, family="Arial, sans-serif", color="#2C1810"),
         paper_bgcolor="white",
         height=600,
         margin=dict(l=20, r=20, t=110, b=20),
@@ -324,6 +324,6 @@ else:
 st.markdown("---")
 st.markdown(
     '<p style="text-align:center;color:#bbb;font-size:11px">'
-    'FST228 · Cocoa Mass Flow Analysis · Smallholder Tool</p>',
+    'Cocoa Mass Flow Analysis · Smallholder Tool</p>',
     unsafe_allow_html=True,
 )
