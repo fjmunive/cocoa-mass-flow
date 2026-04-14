@@ -139,7 +139,7 @@ fig.update_layout(
         height=600,
         margin=dict(l=20, r=20, t=110, b=20),
     )
-    return fig
+return fig
 
 # ── Sidebar — kg inputs (farmers weigh directly) ──────────────
 with st.sidebar:
