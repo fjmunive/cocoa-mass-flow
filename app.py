@@ -127,7 +127,7 @@ def build_sankey(m, variety_name):
         ),
     ))
 
-fig.update_layout(
+    fig.update_layout(
         title=dict(
             text=(f"<b>Cocoa Mass Flow — {variety_name}</b>"
                   f"<br><sup>Input: {T:.0f} kg whole fruit</sup>"),
@@ -140,8 +140,6 @@ fig.update_layout(
         margin=dict(l=20, r=20, t=110, b=20),
     )
     return fig
-
-
 
 # ── Sidebar — kg inputs (farmers weigh directly) ──────────────
 with st.sidebar:
